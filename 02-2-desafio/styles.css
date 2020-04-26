@@ -73,6 +73,17 @@ section p{
 }
 
 .links-footer a{
+    font-size: 30px;
+    color: var(--cor-roxo);
+    padding: 0 10px;
     text-decoration: none;
+}
+
+.links-footer a:hover{
+    font-size: 30px;
+    color: #372668;
+    padding: 0 10px;
+    text-decoration: none;
+    transition: 1s;
 }
 
