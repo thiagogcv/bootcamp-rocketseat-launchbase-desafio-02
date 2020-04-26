@@ -55,12 +55,15 @@ section h1 {
 section p{
     text-align: justify;
     margin: 20px 30px;
+    color: rgba(0, 0, 0, 0.8)
+    
 }
 
 .lista{
     text-align: justify;
     margin: 0 30px;
     padding: 20px;
+    color: rgba(0, 0, 0, 0.8)
 }
 
 .logo-content img {
