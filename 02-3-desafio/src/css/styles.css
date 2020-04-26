@@ -2,22 +2,28 @@
 
 :root {
     --cor-roxo: #7159c1;
+    --cor-black: rgba(0, 0, 0, 0.820);
+    --cor-verde: #61ac5e;
     }
 
 
 * {
     margin: 0;
     padding: 0;
+    font-family: 'Roboto', sans-serif;
     
-
     
 }
 
+body {
+    background: var(--cor-black);
+}
+
 body header {
-    background: var(--cor-roxo);
     text-align: center;
     height: 100%;
     padding: 30px;
+    font-family: 'Roboto', 'sans-serif';
 }
 
 .logotipo img {
@@ -32,30 +38,32 @@ body header {
     font-size: 20px;
     text-decoration: none;
     color: #ffffff;
-    font-family: 'Roboto', sans-serif;
     padding: 30px;
+
 }
 
 .links a:hover {
-    color: rgba(38, 0, 255, 0.479);
+    color: var(--cor-verde);
     transition: 0.5s;
 }
 
 section {
     text-align: center;
     padding-top: 20px;
-    font-family: 'Roboto', 'sans-serif';
+    
 }
 
 section h1 {
+    padding-bottom: 30px;
     font-size: 40px;
-    color: var(--cor-roxo);
+    text-align: center;
+    color: #fff;
 }
 
 section p{
     text-align: justify;
     margin: 20px 30px;
-    color: rgba(0, 0, 0, 0.8)
+    color: #fff
     
 }
 
@@ -63,11 +71,11 @@ section p{
     text-align: justify;
     margin: 0 30px;
     padding: 20px;
-    color: rgba(0, 0, 0, 0.8)
+    color: #fff
 }
 
 .logo-content img {
-    width: 200px;
+    width: 190px;
 }
 
 .links-footer{
@@ -77,16 +85,29 @@ section p{
 
 .links-footer a{
     font-size: 30px;
-    color: var(--cor-roxo);
+    color: #fff;
     padding: 0 10px;
     text-decoration: none;
 }
 
 .links-footer a:hover{
     font-size: 30px;
-    color: #372668;
+    color: var(--cor-verde);
     padding: 0 10px;
     text-decoration: none;
     transition: 1s;
 }
 
+/* ====CARDS==== */
+
+.cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 10px 5px;
+
+}
+
+.card {
+    padding: 0 20px;
+
+}
