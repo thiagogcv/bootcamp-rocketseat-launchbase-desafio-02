@@ -1,0 +1,50 @@
+@import "https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap";
+
+* {
+    margin: 0;
+    padding: 0;
+    
+}
+
+body header {
+    background: rgba(0, 0, 0, 0.822);
+    text-align: center;
+    height: 100%;
+    padding: 30px;
+}
+
+.logotipo img {
+    width: 70px;
+    position: absolute;
+    top: 5px;
+    left: 30px;
+
+}
+
+.links a{
+    font-size: 20px;
+    text-decoration: none;
+    color: #ffffff;
+    font-family: 'Roboto', sans-serif;
+    padding: 30px;
+}
+
+.links a:hover {
+    color: rgba(0, 255, 21, 0.479);
+    transition: 0.5s;
+}
+
+section {
+    text-align: center;
+    padding-top: 20px;
+}
+
+section p{
+    text-align: justify;
+    margin: 20px 30px;
+}
+
+.logo-content img {
+    width: 200px;
+}
+
