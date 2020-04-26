@@ -1,0 +1,92 @@
+@import "https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap";
+
+:root {
+    --cor-roxo: #7159c1;
+    }
+
+
+* {
+    margin: 0;
+    padding: 0;
+    
+
+    
+}
+
+body header {
+    background: var(--cor-roxo);
+    text-align: center;
+    height: 100%;
+    padding: 30px;
+}
+
+.logotipo img {
+    width: 0px;
+    position: absolute;
+    top: 5px;
+    left: 30px;
+
+}
+
+.links a{
+    font-size: 20px;
+    text-decoration: none;
+    color: #ffffff;
+    font-family: 'Roboto', sans-serif;
+    padding: 30px;
+}
+
+.links a:hover {
+    color: rgba(38, 0, 255, 0.479);
+    transition: 0.5s;
+}
+
+section {
+    text-align: center;
+    padding-top: 20px;
+    font-family: 'Roboto', 'sans-serif';
+}
+
+section h1 {
+    font-size: 40px;
+    color: var(--cor-roxo);
+}
+
+section p{
+    text-align: justify;
+    margin: 20px 30px;
+    color: rgba(0, 0, 0, 0.8)
+    
+}
+
+.lista{
+    text-align: justify;
+    margin: 0 30px;
+    padding: 20px;
+    color: rgba(0, 0, 0, 0.8)
+}
+
+.logo-content img {
+    width: 200px;
+}
+
+.links-footer{
+    text-align: center;
+    
+}
+
+.links-footer a{
+    font-size: 30px;
+    color: var(--cor-roxo);
+    padding: 0 10px;
+    text-decoration: none;
+}
+
+.links-footer a:hover{
+    font-size: 30px;
+    color: #372668;
+    padding: 0 10px;
+    text-decoration: none;
+    transition: 1s;
+}
+
