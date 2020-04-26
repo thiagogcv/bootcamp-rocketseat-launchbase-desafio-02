@@ -37,7 +37,7 @@ body header {
 }
 
 .links a:hover {
-    color: rgba(0, 255, 21, 0.479);
+    color: rgba(38, 0, 255, 0.479);
     transition: 0.5s;
 }
 
